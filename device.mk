@@ -28,7 +28,8 @@ PRODUCT_COPY_FILES += \
 
 # Notch hide
 PRODUCT_PACKAGES += \
-    NoCutoutOverlay
+    NoCutoutOverlay \
+    NotchBarKiller
 
 # OPFeature
 PRODUCT_COPY_FILES += \
