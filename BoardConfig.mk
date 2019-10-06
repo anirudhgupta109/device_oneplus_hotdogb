@@ -13,7 +13,7 @@ PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 TARGET_OTA_ASSERT_DEVICE := OnePlus7T
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
+TARGET_KERNEL_CONFIG := vendor/omni_oneplus7pro_defconfig
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
