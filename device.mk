@@ -16,3 +16,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.display.hotdogb.rc
+PRODUCT_COPY_FILES += \
+    device/oneplus/hotdogb/rootdir/etc/fstab.qcom:$(TARGET_COPY_OUT_RECOVERY)/root/first_stage_ramdisk/fstab.qcom
+
