@@ -14,6 +14,12 @@ $(call inherit-product, device/oneplus/hotdogb/device.mk)
 # Inherit some common AOSiP stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# get the rest of aosp stuff after ours
+$(call inherit-product, $(SRC_TARGET_DIR)/product/mainline_system_arm64.mk)
+
+PRODUCT_SHIPPING_API_LEVEL := 29
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+PRODUCT_BUILD_PRODUCT_IMAGE := true
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosip_hotdogb
 PRODUCT_DEVICE := hotdogb

@@ -5,6 +5,8 @@
 #
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
+#PRODUCT_SHIPPING_API_LEVEL := 29
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_props.mk
 
